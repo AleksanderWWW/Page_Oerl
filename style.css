@@ -323,6 +323,19 @@ width: 100%;
 height: 100vh;
 
 }
+
+.contact{
+    text-align: center;
+    display: inline-block;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 #first{
 
 }
@@ -337,4 +350,10 @@ height: 100vh;
 }
 #fifth{
   background-color: violet;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  padding-top: 10rem;
 }
+
+
