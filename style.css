@@ -95,17 +95,21 @@ body{
     z-index: 1000;
 }
 
-.video-cont{
+.video{
   height: 100vh;
   width: 100%;
-
   overflow: hidden;
+  background-color: ;
 }
 #myVideo{
-position: absolute;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin-top: -100vh;
-z-index: -100000;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .fly-in-text {
@@ -236,7 +240,7 @@ z-index: -100000;
         text-align: center;
 
         left: 50%;
-        top: 50%;
+        top: 20%;
         transform: translateX(-50%) translateY(-50%);
     }
     .fly-in-text li {
@@ -322,12 +326,15 @@ opacity: 0;
 width: 100%;
 height: 100vh;
 
-}
-#first{
 
 }
+#first{
+height: 100vh;
+overflow: hidden;
+background-color: ;
+}
 #scnd{
-  background-color: green;
+background-color: white;
 }
 #third{
   background-color: red;
@@ -337,4 +344,19 @@ height: 100vh;
 }
 #fifth{
   background-color: violet;
+}
+
+
+.sidelink{
+position:absolute;
+  width: 20%;
+  height: 35vh;
+  background-color: black;
+  margin-top: 20vh;
+}
+
+.menuteams{
+  width: 100%;
+  height: 100%;
+
 }
