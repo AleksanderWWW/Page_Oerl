@@ -328,6 +328,19 @@ height: 100vh;
 
 
 }
+
+.contact{
+    text-align: center;
+    display: inline-block;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 #first{
 height: 100vh;
 overflow: hidden;
@@ -344,9 +357,14 @@ background-color: white;
 }
 #fifth{
   background-color: violet;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  padding-top: 10rem;
 }
 
 
+<<<<<<< HEAD
 .sidelink{
 position:absolute;
   width: 20%;
@@ -360,3 +378,5 @@ position:absolute;
   height: 100%;
 
 }
+=======
+>>>>>>> 3c97493281e94cbb57ca03038ba9c4dd1f09528d
