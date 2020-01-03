@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content='ie=edge'>
+<!-- Bootstrap CSS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel ="stylesheet" type="text/css" href = "style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<title>Oerlikon SSC</title>
+</head>
+<body>
+
+
+
+
+
+
+
+<div id="first" class="cnt">
+
+  <nav class="nav">
+          <div class="container">
+              <div class="logo">
+                  <a href="#">Your Logo</a>
+              </div>
+              <div id="mainListDiv" class="main_list">
+                  <ul class="navlinks">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>
+              <span class="navTrigger">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+              </span>
+          </div>
+      </nav>
+
+  <ul class="fly-in-text hidden">
+          <li>O</li>
+          <li>E</li>
+          <li>R</li>
+          <li>L</li>
+          <li>I</li>
+          <li>K</li>
+          <li>O</li>
+          <li>N</li>
+          <li> </li>
+          <li>S</li>
+          <li>S</li>
+          <li>C</li>
+      </ul>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script type="text/javascript">
+
+          $(function() {
+
+              setTimeout(function() {
+                  $('.fly-in-text').removeClass('hidden');
+              }, 500);
+
+          });
+
+      </script>
+
+      <div class="video">
+        <video  autoplay muted loop id="myVideo">
+                <source src= "css/VideoHome.mp4" type="video/mp4">
+        </video>
+      </div>
+
+
+</div>
+
+
+
+<div id="scnd" class="cnt">
+<div class="sidelink">
+<ul class='menuteams'>
+      <li >
+      <a  href="#">Account Payables</a>
+      </li>
+
+      <li class='linav'>
+      <a   href="#">Account Receivables</a>
+      </li>
+
+      <li class='linav'>
+      <a   href="#">General Ledger</a>
+      </li>
+
+      <li class='linav'>
+      <a   href="#">PayRoll</a>
+      </li>
+</ul>
+</div>
+
+</div>
+
+<div id="third"  class="cnt">
+
+
+</div>
+
+<div id="fourth" class="cnt">
+
+
+</div>
+<div id="fifth" class="cnt">
+  <div class="contact">
+    <form action="mail.php" method="POST" >
+      <p>Name</p> <input type="text" name="name">
+      <p>Surname</p> <input type="text" name="surname">
+      <p>Email</p> <input type="text" name="email">
+      <br><br>
+      <div class="flex-box-container-1">
+      <div><input type="submit" value="Send" class="btn btn-primary"></div>
+      <div><input type="reset" value="Clear" class="btn btn-primary"></div>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+<script src="app.js"></script>
+  </body>
+</html>

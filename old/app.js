@@ -36,6 +36,13 @@ const navSlide = () => {
 
 };
 
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
 
 
 $(document).ready(function () {
@@ -47,7 +54,7 @@ $('nav a').on('click', function (e) {
 
      $('html, body')
        .animate({
-         scrollTop: $(hash).offset().top 
+         scrollTop: $(hash).offset().top
        },600);
    }
 });

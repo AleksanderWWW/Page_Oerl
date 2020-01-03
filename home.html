@@ -14,128 +14,49 @@
 </head>
 <body>
 
+<div class="container-page" id='first'>
+          <nav class="nav">
+         <div class="container">
+                    <div class="logo">
+                  <a href="#first">Oerlikon SSC</a>
+                    </div>
+                    <div id="mainListDiv" class="main_list">
+                              <ul class="navlinks">
+                                <li><a href="#first">Home</a></li>
+                                <li><a href="#second">About</a></li>
+                              <li><a href="#third">Gallery</a></li>
+                              <li><a href="#fourth">Contact</a></li>
+                              </ul>
+                                </div>
+                              <span class="navTrigger">
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                              </span>
+                </div>
+        </nav>
 
-
-
-
-
-
-<div id="first" class="cnt">
-
-  <nav class='nav'>
-   <div class='logo'>
-
-       <a class='logo' href="#">Oerlikon SSC</a>
-
-    </div>
-
-      <ul class='nav-links'>
-      <li class='linav'>
-      <a href="#first">Home</a>
-      </li>
-
-      <li class='linav'>
-      <a id='lia' href="#scnd">About</a>
-      </li>
-
-      <li class='linav'>
-      <a id='lia' href="#third">Teams</a>
-      </li>
-
-      <li class='linav'>
-      <a  id='lia' href="#fourth">Gallery</a>
-      </li>
-
-      <li class='linav'>
-      <a id='lia' href="#fifth">Contact Us</a>
-      </li>
-
-
-      </ul>
-
-
-      <div class='burger'>
-          <div class='line1'></div>
-          <div class='line2'></div>
-          <div class='line3'></div>
-
-      </div>
-
-
-  </nav>
-
-  <ul class="fly-in-text hidden">
-          <li>O</li>
-          <li>E</li>
-          <li>R</li>
-          <li>L</li>
-          <li>I</li>
-          <li>K</li>
-          <li>O</li>
-          <li>N</li>
-          <li> </li>
-          <li>S</li>
-          <li>S</li>
-          <li>C</li>
-      </ul>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      <script type="text/javascript">
-
-          $(function() {
-
-              setTimeout(function() {
-                  $('.fly-in-text').removeClass('hidden');
-              }, 500);
-
-          });
-
-      </script>
-
-      <div class="video">
+        <div class="video">
         <video  autoplay muted loop id="myVideo">
-                <source src= "css/VideoHome.mp4" type="video/mp4">
+        <source src= "css/VideoHome.mp4" type="video/mp4">
         </video>
-      </div>
+        </div>
 
 
 </div>
 
 
+<div class="container-page" id='second'>
 
-<div id="scnd" class="cnt">
-<div class="sidelink">
-<ul class='menuteams'>
-      <li >
-      <a  href="#">Account Payables</a>
-      </li>
 
-      <li class='linav'>
-      <a   href="#">Account Receivables</a>
-      </li>
-
-      <li class='linav'>
-      <a   href="#">General Ledger</a>
-      </li>
-
-      <li class='linav'>
-      <a   href="#">PayRoll</a>
-      </li>
-</ul>
-</div>
+  <h1>PAGE ABOUT</h1>
 
 </div>
-
-<div id="third"  class="cnt">
-
-
+<div class="container-page"id='third'>
+<h1>PAGE GALLERY</h1>
 </div>
+<div class="container-page"id='fourth'>
 
-<div id="fourth" class="cnt">
-
-
-</div>
-<div id="fifth" class="cnt">
   <div class="contact">
     <form action="mail.php" method="POST" >
       <p>Name</p> <input type="text" name="name">
@@ -151,13 +72,21 @@
 
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
 
 
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
 
-
-
-
-
-<script src="app.js"></script>
+<script src="scripts.js"></script>
   </body>
 </html>
