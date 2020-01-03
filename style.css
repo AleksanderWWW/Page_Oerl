@@ -323,6 +323,12 @@ width: 100%;
 height: 100vh;
 
 }
+
+.contact{
+    text-align: center;
+    display: inline-block;
+}
+
 #first{
 
 }
@@ -337,4 +343,10 @@ height: 100vh;
 }
 #fifth{
   background-color: violet;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  padding-top: 10rem;
 }
+
+
