@@ -325,7 +325,7 @@ height: 100vh;
 }
 
 .contact{
-    text-align: center;
+    text-align: left;
     display: inline-block;
 }
 
@@ -335,6 +335,18 @@ height: 100vh;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+input {
+    display: block;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+
+ 
+
+
 
 #first{
 
@@ -351,7 +363,7 @@ height: 100vh;
 #fifth{
   background-color: violet;
   text-align: center;
-  display: inline-block;
+  display: inline-table;
   margin: auto;
   padding-top: 10rem;
 }
