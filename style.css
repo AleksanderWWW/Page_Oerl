@@ -19,7 +19,16 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
+    z-index: 10;
 }
+.carousel {
+    position: relative;
+    height: auto%;
+    width: 100%;
+    margin-left:0%;
+    margin-top:0;
+    padding-top: 0;
+  }
 .container-page{
 
   width: 100%;
@@ -30,14 +39,14 @@ body {
   text-align: center;
   display: inline-block;
   margin: auto;
-  padding-top: 10rem;
+  padding-top:10rem ;
 }
 #third{
   background-color: yellow;
   text-align: center;
   display: inline-block;
   margin: auto;
-  padding-top: 10rem;
+  padding-top: 0;
 }
 
 #fourth{
@@ -45,7 +54,7 @@ body {
   text-align: center;
   display: inline-block;
 
-  padding-top: 10rem;
+  padding-top: ;
 }
 
 .video{
