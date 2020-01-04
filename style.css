@@ -336,6 +336,7 @@ height: 100vh;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+
 }
 .button-div{
     padding-top: 2rem;
@@ -344,9 +345,17 @@ height: 100vh;
 input {
     display: block;
 }
+input:focus::placeholder {
+    color: transparent;
+  }
 textarea {
     display: block;
+    width: 200%;
 }
+textarea:focus::placeholder {
+    color: transparent;
+  }
+
 
 ::-webkit-input-placeholder {
     font-style: italic;
