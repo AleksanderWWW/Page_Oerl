@@ -327,16 +327,24 @@ height: 100vh;
 .contact{
     text-align: left;
     display: inline-block;
+    margin-right: 20%;
+    font-size: 15px;
+    font-style: oblique;
 }
 
 .flex-box-container-1 {
     display: flex;
-    padding: 10px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    padding: 10px;
+}
+.button-div{
+    padding-top: 2rem;
 }
 
 input {
+    display: block;
+}
+textarea {
     display: block;
 }
 
@@ -344,7 +352,10 @@ input {
     font-style: italic;
  }
 
- 
+ #input-1{
+     width: 250%;
+     height: 40px
+ }
 
 
 
@@ -362,10 +373,10 @@ input {
 }
 #fifth{
   background-color: violet;
-  text-align: center;
+  text-align: left;
   display: inline-table;
-  margin: auto;
-  padding-top: 10rem;
+  padding-left: 3rem;
+  padding-top: 7rem;
 }
 
 

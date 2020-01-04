@@ -118,14 +118,28 @@
 
 </div>
 <div id="fifth" class="cnt">
+  <p style="font-size: 30px; font-style: oblique;">
+    <strong>
+      Contact us!
+    </strong>
+  </p>
   <div class="contact">
     <form action="mail.php" method="POST" >
-      <p>Name <input type="text" name="name" placeholder="Enter name"></p> 
-      <p>Surname <input type="text" name="surname" placeholder="Enter surname"></p>
-      <p>Email <input type="text" name="email" placeholder="Enter email"></p>
-      <div class="flex-box-container-1">
-      <div><input type="submit" value="Send" class="btn btn-primary"></div>
-      <div><input type="reset" value="Clear" class="btn btn-primary"></div>
+      <p>Name <input type="text" id="input-1" name="name" placeholder=" Enter name..."></p> 
+      <p>Surname <input type="text" id="input-1" name="surname" placeholder=" Enter surname..."></p>
+      <p>Email <input type="text" id="input-1" name="email" placeholder=" Enter email..."></p>
+      <p>Division <br>
+        <select name="dropdown" size="1">
+        <option value="Option1">GL</option>
+        <option value="Option2">AP</option>
+        <option value="Option3">AR</option>
+        <option value="Option4">HR</option>
+        <option value="Option4">Generic</option>
+        </select>
+      </p>
+      <p>Message<textarea name="message" rows="5" cols="40" placeholder=" Customize your message"></textarea></p>
+      <div class='button-div'>
+      <input type="submit" value="Submit" class="btn btn-primary">
       </div>
     </form>
   </div>

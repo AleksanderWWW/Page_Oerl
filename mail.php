@@ -1,10 +1,13 @@
 <?php
 $name = $_POST['name'];
-$surname = $_POST['surname']
+$surname = $_POST['surname'];
 $email = $_POST['email'];
-$recipient = "alwojnarowicz@gmial.com"; //generic mail of the company here
+$dropdown = $POST['dropdown'];
+$message = $_POST['message'];
+$formcontent="From: $name, $surname, $dropdown \n Message: $message";
+$recipient = "emailaddress@here.com"; //generic address needed
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $mailheader) or die("Error!");
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!";
 ?>
