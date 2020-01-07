@@ -415,6 +415,7 @@ body {
 	text-align:center;
 	font-size: 4rem;
 }
+<<<<<<< HEAD
 .myP {
 	text-align: justify;
 	padding-left:15%;
@@ -425,14 +426,80 @@ body {
 	.myP {
 		padding:2%;
 	}
+=======
+
+.contact{
+    text-align: left;
+    display: inline-block;
+    margin-right: 20%;
+    font-size: 15px;
+    font-style: oblique;
 }
 
+.flex-box-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+>>>>>>> 8be46c075ff7da65900504b9ea2528bd8f87672a
+}
+.button-div{
+    padding-top: 2rem;
+}
+
+input {
+    display: block;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+textarea {
+    display: block;
+    width: 200%;
+}
+textarea:focus::placeholder {
+    color: transparent;
+  }
+
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+
+ #input-1{
+     width: 250%;
+     height: 40px
+ }
+
+
+
+<<<<<<< HEAD
 #footer {
     bottom: 0;
     width: 100%;
     position: relative;
     height: 5vh;
     background-color: #f5f5f5;
+=======
+#first{
+
+}
+#scnd{
+  background-color: green;
+}
+#third{
+  background-color: red;
+}
+#fourth{
+  background-color: yellow;
+}
+#fifth{
+  background-color: violet;
+  text-align: left;
+  display: inline-table;
+  padding-left: 3rem;
+  padding-top: 7rem;
+>>>>>>> 8be46c075ff7da65900504b9ea2528bd8f87672a
 }
     .footer-block {
     margin: 20px 0;
