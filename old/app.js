@@ -69,8 +69,8 @@ jQuery(document).ready(function($) {
                 // $(".nav").addClass("nav-linksscrolled");
                }
             else{
-              $(".nav").removeClass("navscroll");
-              $(".nav").addClass("nav");
+              
+              $(".nav").addClass("cng");
               // $(".nav").removeClass("nav-linksscrolled");
               // $(".nav").addClass("nav-links");
             }
