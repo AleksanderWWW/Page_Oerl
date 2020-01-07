@@ -35,14 +35,19 @@ body {
   height: 100vh;
 }
 #second{
-  background-color: green;
+  background-color: white;
   text-align: center;
   display: inline-block;
   margin: auto;
   padding-top:10rem ;
 }
+
+.carousel-inner{
+	width:80%!important;
+	margin-left:10%;
+}
 #third{
-  background-color: yellow;
+  background-color: white;
   text-align: center;
   display: inline-block;
   margin: auto;
@@ -123,6 +128,15 @@ body {
     color: black;
 }
 
+.item {
+	max-height:100vh!important;
+	
+	
+	
+	
+}
+
+.carousel-indicators li{ background-color:black!important;}
 
 /* Home section */
 
@@ -197,8 +211,6 @@ body {
 }
 
 
-/* Animation */
-/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
 .navTrigger {
     cursor: pointer;
