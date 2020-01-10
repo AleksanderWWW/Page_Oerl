@@ -28,3 +28,22 @@ $('#dropdownMenuButton').click(function(){
    
 
 })
+
+
+$('#ssc').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+  //  $('.ssc_page').removeclass('ssc_page');
+  // $('.ssc_page').addclass('ssc_page_pop');
+});
+
+$('#close').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page_pop");
+  element.classList.add("ssc_page");
+  //  $('.ssc_page').removeclass('ssc_page');
+  // $('.ssc_page').addclass('ssc_page_pop');
+});
+
+
