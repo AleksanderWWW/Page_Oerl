@@ -121,7 +121,7 @@ padding:5%;
 }
 .ssc_page_pop{
 
-    
+     
     top: 0;
     bottom:0;
     position: fixed;
@@ -165,7 +165,7 @@ border-radius: 50%;
 }
 .contentscroll{
 
-height: 1500px;
+height: 100%;
 overflow-y: scroll;
 width: 100%;
 background-color: white;
@@ -174,14 +174,56 @@ background-color: white;
     
 }
 
-/* .ssccontent{
-position:relative;
-width:100%;
-height:500px;
-border: 1px solid #ccc;
+.ssc_content{
+    width: 100%;
+    height: 400px;
+    
+}
+#firstssc{
+    background-color: yellow;
+}
 
-} */
+#scndtssc{
 
+    background-color: black;
+}
+
+#thirdssc{
+    background-color: green;
+}
+
+
+
+.navssc{
+height: 10%;
+width: 100%;
+position: absolute;
+background-color: grey;
+
+}
+
+.ulssc{
+    display: flex;
+    height: 100%;
+    
+}
+.lissc{
+
+align-items: center;
+width: 25%;
+
+
+}
+
+.assc{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 40px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
 
 
 
