@@ -28,3 +28,74 @@ $('#dropdownMenuButton').click(function(){
    
 
 })
+
+
+$('#ssc').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+$('#gnr').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+$('#GL').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+
+$('#AR').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+
+$('#AP').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+
+$('#HR').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+
+$('#HEADS').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+
+$('#PAYROLL').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+
+$('#GL').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+
+$('#close').click(function(){
+  var element = document.getElementById("myDIV");
+  element.classList.remove("ssc_page_pop");
+  element.classList.add("ssc_page");
+
+});
+
+
