@@ -195,19 +195,27 @@ background-color: white;
 
 
 .navssc{
-height: 10%;
-width: 100%;
-position: absolute;
-background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: aqua;
+    font-family: 'Poppins','sans-serif';
+
 
 }
 
 .ulssc{
+
     display: flex;
-    height: 100%;
+    justify-content: space-around;
+    width: 100%;;
     
 }
-.lissc{
+
+
+
+/* .lissc{
 
 align-items: center;
 width: 25%;
@@ -216,10 +224,10 @@ width: 25%;
 }
 
 .assc{
-    float: left;
+    
     color: #f2f2f2;
     text-align: center;
-    padding: 24px 40px;
+ 
     text-decoration: none;
     font-size: 17px;
 
@@ -227,7 +235,7 @@ width: 25%;
 
 
 
-
+ */
 
 
 
