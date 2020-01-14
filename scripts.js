@@ -30,6 +30,33 @@ $('#dropdownMenuButton').click(function(){
 })
 
 
+
+$('#videossc').click(function(){
+  var element = document.getElementById("videoplayer");
+  element.classList.remove("ssc_page");
+  element.classList.add("ssc_page_pop");
+
+});
+$('#closevideo').click(function(){
+  var element = document.getElementById("videoplayer");
+  element.classList.remove("ssc_page_pop");
+  element.classList.add("ssc_page");
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $('#ssc').click(function(){
   var element = document.getElementById("myDIV");
   element.classList.remove("ssc_page");
@@ -37,7 +64,7 @@ $('#ssc').click(function(){
 
 });
 $('#gnr').click(function(){
-  var element = document.getElementById("myDIV");
+  var element = document.getElementById("CorpDIV");
   element.classList.remove("ssc_page");
   element.classList.add("ssc_page_pop");
 
@@ -99,3 +126,9 @@ $('#close').click(function(){
 });
 
 
+$('#closecorp').click(function(){
+  var element = document.getElementById("CorpDIV");
+  element.classList.remove("ssc_page_pop");
+  element.classList.add("ssc_page");
+
+});
