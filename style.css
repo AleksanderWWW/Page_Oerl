@@ -19,7 +19,7 @@ body {
         color: red;
         line-height: 65px;
         font-size: 1.4rem !important;
-    }
+    }e
 }
 
 
@@ -165,7 +165,7 @@ border-radius: 50%;
 }
 .contentscroll{
 
-height: 100%;
+height: 92%;
 overflow-y: scroll;
 width: 100%;
 background-color: white;
@@ -192,61 +192,28 @@ background-color: white;
     background-color: green;
 }
 
-
-
-.navssc{
+.headssc{
     position: relative;
-    width: 100%;;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: aqua;
-    font-family: 'Poppins','sans-serif';
-
-
+    width:100%;
+    height: 8%;
+    background-color: green;;
+    overflow: hidden;
 }
-
-.ulssc{
-
-    display: flex;
-    justify-content: space-around;
-    width: 100%;;
+.sscheader{
+    width:100%;
+    height:8%;
+    background-color: pink;
     
+    vertical-align: middle
 }
 
-
-
-/* .lissc{
-
-align-items: center;
-width: 25%;
-
-
-}
-
-.assc{
-    
-    color: #f2f2f2;
+.sscheader h1{
+    height: 100%;
+    color:red;
     text-align: center;
- 
-    text-decoration: none;
-    font-size: 17px;
-
+    vertical-align: middle;
+    
 }
-
-
-
- */
-
-
-
-
-
-
-
-
-
 
 
 
