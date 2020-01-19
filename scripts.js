@@ -43,19 +43,60 @@ $('#dropdownMenuButton').click(function(){
 //   element.classList.add("ssc_page");
 
 // });
+var textWrapper = document.querySelector('.Excellence');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+anime.timeline({loop: false})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 10200,
+    delay: (el, i) => 200
+  });
+  var textWrapper = document.querySelector('.teamspirit');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+anime.timeline({loop: false})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [100,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 10200,
+    delay: (el, i) =>  400 * i
+  });
 
+  var textWrapper = document.querySelector('.lastcore');
+  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  
+  anime.timeline({loop: false})
+    .add({
+      targets: '.ml12 .letter',
+      translateX: [100,0],
+      translateZ: 0,
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 10200,
+      delay: (el, i) =>  600
+    });
 
-
-
-
-
-
-
-
-
-
+    var textWrapper = document.querySelector('.innovation');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    
+    anime.timeline({loop: false})
+      .add({
+        targets: '.ml12 .letter',
+        translateX: [100,0],
+        translateZ: 0,
+        opacity: [0,1],
+        easing: "easeOutExpo",
+        duration: 10200,
+        delay: (el, i) =>  800
+      });
 
 $('GL').click(function(){
   var element = document.getElementById("myDIV");

@@ -20,6 +20,7 @@ body {
         line-height: 65px;
         font-size: 1.4rem !important;
     }
+    
 }
 
 .nav {
@@ -75,6 +76,46 @@ p {
 
 }
 
+.ml12 {
+    color: red;
+    font-weight: 1000;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    position:absolute;
+    
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 2em;
+  }
+  .Excellence{
+    margin-top:200px!important;
+    width:100%;
+    text-align: left;
+    padding-left:400px;
+}
+.teamspirit{
+    margin-top:300px!important;
+    width:100%;
+    text-align: right;
+    padding-right:100px;
+    
+}
+
+.innovation{
+    margin-top:800px!important;
+    width:100%;
+    text-align: right;
+    padding-right:500px;
+}
+.lastcore{
+    margin-top:700px!important;
+    width:100%;
+    text-align: left;
+    padding-left:100px;
+}
 .head_text{
     font-size: 20px!important;
 }
@@ -871,6 +912,50 @@ background-color: white;
 }
 
 @media all and (max-width:700px) {
+    .ml12 {
+        color: red;
+        font-weight: 200;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        position:absolute;
+        
+      }
+      
+      .ml12 .letter {
+        display: inline-block;
+        line-height: 1em;
+      }
+      .Excellence{
+        margin-top:150px!important;
+        width:100%;
+        padding-left:25px!important;
+        padding-right:0px!important;
+        text-align: left;
+    }
+    .teamspirit{
+        margin-top:350px!important;
+        width:100%;
+        padding-left:0px!important;
+        padding-right:25px!important;
+        text-align: right;
+    }
+    
+    .innovation{
+        margin-top:500px!important;
+        width:100%;
+        padding-left:25px!important;
+        padding-right:0px!important;
+        text-align: left;
+    }
+    .lastcore{
+        margin-top:700px!important;
+        width:100%;
+        padding-left:0px!important;
+        padding-right:25px!important;
+        text-align: right;
+        
+    }
     .myP {
         padding: 2%;
     }
