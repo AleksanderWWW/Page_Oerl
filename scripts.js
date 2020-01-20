@@ -12,7 +12,7 @@ $('nav a').on('click', function (e) {
      e.preventDefault();
 
      const hash = this.hash;
-
+    console.log(this.hash)
      $('html, body')
        .animate({
          scrollTop: $(hash).offset().top

@@ -12,6 +12,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel ="stylesheet" type="text/css" href = "style2.css"/>
+<link rel ="stylesheet" type="text/css" href = "phone.css"/>
+<link rel ="stylesheet" type="text/css" href = "700_1000.css"/>
+<link rel ="stylesheet" type="text/css" href = "1600.css"/>
 <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -40,9 +43,23 @@
                     <div id="mainListDiv" class="main_list">
                               <ul class="navlinks">
                                 <li><a href="#first">Home</a></li>
-                                <li><a href="#second">SSC</a></li>
+                                <li class='dropdown'><a href="#second">SSC</a>
+                                  <div class="dropdown-content">
+                                    <a href="#second">About Us</a>
+                                    <a href="#teams_ssc">Teams</a>
+                                    
+                                  </div></li>
                                 <li><a href="#third">Corporate</a></li>
-                                <li><a href="#fourth">HR</a></li>
+                                <li class='dropdown'><a href="#fourth">People</a>
+                                  <div class="dropdown-content">
+                                    <a class='dropa' href="#">Core Values</a>
+                                    <a class='dropa' href="#">Carrer</a>
+                                    <a class='dropa' href="#">CSR</a>
+                                    <a class='dropa' href="#">Benefits</a>
+                                  </div>
+                                
+                                
+                                </li>
                                 <li><a href="#fifth">Gallery</a></li>
                                 <li><a href="#sixth">Contact</a></li>
     
@@ -58,8 +75,8 @@
         <h1 class="ml12 Excellence">Excellence</h1>
         <h1 class="ml12 teamspirit">Team Spirit</h1>
         
-        <h1 class="ml12 lastcore">Last Value</h1>
-        <h1 class="ml12 innovation">Innovation</h1>
+        <h1 class="ml12 lastcore">Innovation</h1>
+        <h1 class="ml12 innovation">integrity</h1>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
@@ -210,7 +227,7 @@
       
 
     </div>
-    <div class="teams">
+    <div class="teams" id='teams_ssc'>
       <h1 class='headssc'>Teams</h1>
       <p class='head_text'>Received shutters expenses ye he pleasant. 
         Drift as blind above at up. No up simple county stairs
@@ -314,6 +331,7 @@
 </div>
 
 
+</div>
 
 
 
@@ -361,20 +379,75 @@
 
 
 
-
-<div class="container-page"id='third'>
+<div class="container-page"id='fourth'>
  
+  <div class="ssc">
+        
+    <h1 class='headssc'>People</h1>
+    <p class='head_text'>Received shutters expenses ye he pleasant. 
+      Drift as blind above at up. No up simple county stairs
+       do should praise as. Drawings sir gay together landlord 
+       had law smallest. Formerly welcomed attended declared met say unlocked
+       . Jennings outlived no dwelling denoting in peculiar as he believed.
+       Behaviour excellent middleton be as it curiosity departure ourselves. 
+       do should praise as. Drawings sir gay together landlord 
+       had law smallest. Formerly welcomed attended declared met say unlocked
+       . Jennings outlived no dwelling denoting in peculiar as he believed.
+       Behaviour excellent middleton be as it curiosity departure ourselves. 
+    </p>
 
+    
+    <div class="firstpar">
+        <div class="firstpar_text" >
+          <p class='text_par'>Received shutters expenses ye he pleasant. 
+            Drift as blind above at up. No up simple county stairs
+            do should praise as. Drawings sir gay together landlord 
+            had law smallest. Formerly welcomed attended declared met say unlocked
+            . Jennings outlived no dwelling denoting in peculiar as he believed.
+            Behaviour excellent middleton be as it curiosity departure ourselves. 
+            do should praise as. Drawings sir gay together landlord 
+            had law smallest. Formerly welcomed attended declared met say unlocked
+            . Jennings outlived no dwelling denoting in peculiar as he believed.
+            Behaviour excellent middleton be as it curiosity departure ourselves. 
+          </p>
+        </div>
+
+        <div class="firstpar_photo">
+          <img src="images/concactback.jpg" class='center' >
+        </div>
+
+    </div>
+
+    <div class="firstpar" id='secondparssc'>
+      <div class="firstpar_photo">
+        <img src="images/concactback.jpg" class='center' >
+      </div>
+      <div class="firstpar_text">
+        <p class='text_par'>Received shutters expenses ye he pleasant. 
+          Drift as blind above at up. No up simple county stairs
+          do should praise as. Drawings sir gay together landlord 
+          had law smallest. Formerly welcomed attended declared met say unlocked
+          . Jennings outlived no dwelling denoting in peculiar as he believed.
+          Behaviour excellent middleton be as it curiosity departure ourselves. 
+          do should praise as. Drawings sir gay together landlord 
+          had law smallest. Formerly welcomed attended declared met say unlocked
+          . Jennings outlived no dwelling denoting in peculiar as he believed.
+          Behaviour excellent middleton be as it curiosity departure ourselves. 
+        </p>
+      </div>
 
     
 
+  </div>
+
+  
 
 
   
 
 </div>
 
-
+</div>
 
 
 
@@ -539,7 +612,8 @@
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
             $('.nav').addClass('affix');
-            console.log("OK");
+
+            
         } else {
             $('.nav').removeClass('affix');
         }
